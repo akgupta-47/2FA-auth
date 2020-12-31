@@ -1,0 +1,17 @@
+{
+  "name": "2fa_speakeasy",
+  "version": "1.0.0",
+  "description": "2 factor authentication",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Akshat Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-json-db": "^1.1.0",
+    "speakeasy": "^2.0.0",
+    "uuid": "^8.3.2"
+  }
+}
